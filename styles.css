@@ -8,7 +8,15 @@
     min-height: calc(100vh - 184px);
 }
 
-.link {
-
+/* remove links from li's you can target them by descedant and not have to give all of them a class*/
+.list-unstyled a {
     color: white;
 }
+
+/* header {
+  text-align: center;
+}
+.logo {
+  width: 110px;
+  margin: auto;
+} */
