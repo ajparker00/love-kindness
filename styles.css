@@ -1,3 +1,7 @@
+body {
+  padding-top: 56px;
+}
+
 .wrapper {
     width: 75%;
     margin: 0 auto;
@@ -8,11 +12,32 @@
     min-height: calc(100vh - 184px);
 }
 
+.main-header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+}
+
 /* remove links from li's you can target them by descedant and not have to give all of them a class*/
 .list-unstyled a {
     color: white;
 }
 
+.feat-img {
+    float: left;
+    margin-top: 5px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    padding: 10px;
+    border: solid 1px #d9edea;
+
+}
+
+.spacing {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
 /* header {
   text-align: center;
 }
