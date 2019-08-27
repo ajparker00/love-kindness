@@ -36,72 +36,69 @@
           <li class="nav-item"><a class="nav-link" href="resources.html"><span
                 class="fa fa-search fa-lg"></span>Resources</a></li>
         </ul>
-        <!-- Button trigger modal -->
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#loginLink">
-          Login </button>
-      </nav>
 
+        <!-- Button trigger modal -->
+       
+        <span class="navbar-text btn btn-primary">
+          <a id="loginLink">
+              <span class="fa fa-sign-in"></span> Login</a>
+      </span>
+      </nav>
 
       <!--Login Modal at the Top right of the page- In the next step we introduce the modal to the web page. To set up the modal, 
     add the following code right after the navbar at the top of the page. -->
-      <div id="loginModal" class="modal fade" role="dialog">
-        <div class="modal-dialog modal-lg">
-          <!-- Modal content-->
-          <div class="modal-content">
-            <div class="modal-header">
-              <h4 class="modal-title">Login </h4>
-              <button type="button" class="close" data-dismiss="modal">&times;</button>
-            </div>
-            <div class="modal-body">
-              <form>
-                <div class="form-row">
-                  <div class="form-group col-sm-4">
-                    <label class="sr-only" for="exampleInputEmail3">Email address</label>
-                    <input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3"
-                      placeholder="Enter email">
-                  </div>
-                  <div class="form-group col-sm-4">
-                    <label class="sr-only" for="exampleInputPassword3">Password</label>
-                    <input type="password" class="form-control form-control-sm mr-1" id="exampleInputPassword3"
-                      placeholder="Password">
-                  </div>
-                  <div class="col-sm-auto">
-                    <div class="form-check">
-                      <input class="form-check-input" type="checkbox">
-                      <label class="form-check-label"> Remember me
-                      </label>
-                    </div>
-                  </div>
+
+      <!-- <div id="loginModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg"> -->
+            <!-- Modal content-->
+            <!-- <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Login </h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
                 </div>
-                <div class="form-row">
-                  <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
-                  <button type="submit" class="btn btn-primary btn-sm ml-1">Sign in</button>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-sm-4">
+                                <label class="sr-only" for="exampleInputEmail3">Email address</label>
+                                <input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3"
+                                    placeholder="Enter email">
+                            </div>
+                            <div class="form-group col-sm-4">
+                                <label class="sr-only" for="exampleInputPassword3">Password</label>
+                                <input type="password" class="form-control form-control-sm mr-1"
+                                    id="exampleInputPassword3" placeholder="Password">
+                            </div>
+                            <div class="col-sm-auto">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox">
+                                    <label class="form-check-label"> Remember me
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <button type="button" class="btn btn-secondary btn-sm ml-auto"
+                                data-dismiss="modal">Cancel</button>
+                            <button type="submit" class="btn btn-primary btn-sm ml-1">Sign in</button>
+                        </div>
+                    </form>
                 </div>
-              </form>
             </div>
-          </div>
         </div>
-      </div>
-    </header>
+    </div> -->
+
+     
+   
       <!-- Moms picture and heading section -->
       <!-- Try inline-block instead of float for placement of text and pic.  Easier to center content horizontally -->
-      <div class="bg-white">
+      <div class="furn">
         <!--Added shrunk content to fit on page-->
         <div class="wrapper">
           <section class="feature">
           <h1 class="display-4">Loving Kindness Family Counseling Services</h1>
         </section>
 
-          <!-- this is center aligning text and logo
-             <header>
-			<img class="logo" src="city-logo.svg" alt="logo">
-			<ul class="main-nav">
-				<li><a href="#">Ice cream</a></li>
-				<li><a href="#">Donuts</a></li>
-				<li><a href="#">Tea</a></li>
-				<li><a href="#">Coffee</a></li>
-			</ul>
-		</header> -->
           <section class="row">
             <div class="col-lg-4 profile-info">
               <img class="feat-img" src="img/marciaparker.jpg" alt="Photograph of Marcia">
@@ -149,7 +146,7 @@
           </div>
         </div>
       </div>
-  </div>
+ 
 
 
   <footer class="footer bg-secondary">
@@ -244,8 +241,8 @@
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  <script>$("#loginLink").click(function () {
-      $('#loginModal').modal('show');
+  <script>$("#loginLink").click(function() {
+    $('#loginModal').modal('show');
     });</script>
 </body>
 

@@ -2,10 +2,15 @@ body {
   padding-top: 56px;
 }
 
+/* Trying to add background pic */
+.furn {
+  background-image:url("img/furniture.jpg");
+  width: 100%;
+}
+
 .wrapper {
     width: 75%;
     margin: 0 auto;
-
 }
 
 .wrap {
@@ -22,6 +27,10 @@ body {
 /* remove links from li's you can target them by descedant and not have to give all of them a class*/
 .list-unstyled a {
     color: white;
+}
+
+address a {
+  color: white;
 }
 
 .feat-img {
