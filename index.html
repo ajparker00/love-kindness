@@ -21,37 +21,38 @@
 
 <body>
 
-  <!-- Sticky footer -->
-  <div class="wrap">
-
-    <header class="main-header">
+ <!-- Sticky footer -->
+ <div class="wrap">
+  <header class="main-header">
       <nav class="navbar navbar-light" style="background-color: #9ca1a5;">
 
-        <ul class="nav">
-          <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-home fa-lg">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="about.html"><span class="fa fa-info fa-lg"></span> About us</a>
-          </li>
-          <li class="nav-item"><a class="nav-link" href="contact.html"><span class="fa fa-address-card fa-lg"></span>
-              Contact us</a></li>
-          <li class="nav-item"><a class="nav-link" href="resources.html"><span
-                class="fa fa-search fa-lg"></span>Resources</a></li>
-        </ul>
-
-        <!-- Button trigger modal -->
-       
-        <span class="navbar-text btn btn-primary">
-          <a id="loginLink">
-              <span class="fa fa-sign-in"></span> Login</a>
-      </span>
+          <ul class="nav">
+              <li class="nav-item"><a class="nav-link" href="index.html"><span class="fa fa-home fa-lg">Home</a>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="about.html"><span class="fa fa-info fa-lg"></span> About
+                      us</a></li>
+              <li class="nav-item"><a class="nav-link" href="contact.html"><span
+                          class="fa fa-address-card fa-lg"></span> Contact us</a></li>
+              <li class="nav-item"><a class="nav-link" href="resources.html"><span
+                          class="fa fa-search fa-lg"></span>Resources</a></li>
+          </ul>
+          <!-- Button trigger modal -->
+          <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#loginLink">
+              Login </button> -->
+              <span class="navbar-text btn btn-primary">
+                  <a id="loginLink">
+                      <span class="fa fa-sign-in"></span> Login</a>
+              </span>
       </nav>
+  </header>
 
       <!--Login Modal at the Top right of the page- In the next step we introduce the modal to the web page. To set up the modal, 
     add the following code right after the navbar at the top of the page. -->
 
-      <!-- <div id="loginModal" class="modal fade" role="dialog">
-        <div class="modal-dialog modal-lg"> -->
+      <div id="loginModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
             <!-- Modal content-->
-            <!-- <div class="modal-content">
+            <div class="modal-content">
                 <div class="modal-header">
                     <h4 class="modal-title">Login </h4>
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
@@ -86,13 +87,14 @@
                 </div>
             </div>
         </div>
-    </div> -->
+    </div>
 
      
    
       <!-- Moms picture and heading section -->
       <!-- Try inline-block instead of float for placement of text and pic.  Easier to center content horizontally -->
-      <div class="furn">
+     <div class="bg white">
+      <!-- <div class="furn"> -->
         <!--Added shrunk content to fit on page-->
         <div class="wrapper">
           <section class="feature">
