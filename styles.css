@@ -2,7 +2,6 @@ body {
   padding-top: 56px;
 }
 
-/* Trying to add background pic */
 .furn {
   background-image:url("img/furniture.jpg");
   width: 100%;
@@ -40,7 +39,12 @@ address a {
     margin-bottom: 25px;
     padding: 10px;
     border: solid 1px #d9edea;
+    transition: all 1s;
 
+}
+
+.feat-img:hover {
+  transform: scale(1.1);
 }
 
 .spacing {
